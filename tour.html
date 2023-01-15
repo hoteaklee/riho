@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>한국투어</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+    <style>
+        #body   {width: 1000px; margin: 0 auto; }
+        #tour {margin: 0;  padding: 10px 60px;}
+        #header { position: relative}
+        header div {background: darkgray; height: 80px;   }
+        #nav { list-style: none; position: absolute; left: 340px; top: 20px ;
+                background: black; padding: 11px 20px; }
+        #nav li {display: inline-block; color: white; width: 150px;
+                text-align: center;}
+        #main1 { margin: 0 3px 0 10px; position: relative}
+        #slide h4 {background: darkgray; z-index: 2; width: 250px; text-align: center;
+                    position: absolute; top:30%; left: 40%; opacity: 0.7;}
+        #slide a img {width: 100%; }
+        #main2 { margin: 0 3px 0 10px; position: relative;}
+        table {display: inline-block; width: 32%; margin: 10px; }
+        table tr td:nth-child(2) { text-align: end; }
+        #galleriy h3 {margin: 0;}
+        #galleriy {display: inline-block; position: absolute; width: 35% ; margin: 10px 0; }
+        #galleriy img { width:80px; padding: 10px; }
+        #Shortcuts {  position: absolute;right: 0;top: 10px; width: 32%;  }
+        #Shortcuts img {display: inline-block;width:100%;height: 140px; }
+        #Shortcuts a { display: inline-block;position: absolute; top: 40%; right: 20%;
+                    width: 200px;background: black; text-align: center;opacity: 0.3;
+                    color: white; }
+         a:link { text-decoration: none; }
+
+         footer { background: darkgray; position: relative; height: 110px;
+                }
+         #copy {position: absolute; top: 40%; left: 5%;}
+        #link { position: absolute; top: 10px; right: 10px;}
+         #link ul {list-style: none; margin: 5px;  }
+         #link ul li {display: inline-block; padding: 0 10px; }
+         form select {width: 240px;  position: absolute; right: 4px}
+
+
+
+    </style>
+</head>
+<body id="body">
+<header>
+    <div id="header">
+    <h1 id="tour">한국투어</h1>
+    <ul id="nav">
+        <li>해외여행</li>
+        <li>국내여행</li>
+        <li>제주도</li>
+        <li>렌터카</li>
+    </ul>
+    </div>
+</header>
+<main>
+    <section id="main1">
+        <div id="slide">
+
+        <a href="#"><img src="img/Slides/img1.jpg" alt=""></a>
+            <h4>해외 여행 예약, 한국투어</h4>
+        </div>
+    </section>
+    <section id="main2">
+        <table>
+            <tr>
+                <th colspan="2">공지사항</th>
+            </tr>
+            <tr><td>한국투어 홈페이지 개편 안내</td><td>2002.03.01</td></tr>
+            <tr><td>여행 이벤트 상품을 드립니다</td><td>2002.03.01</td></tr>
+            <tr><td>렌트 이용시 주의해주세요</td><td>2002.03.01</td></tr>
+            <tr><td>제주도 여행권 할인 안내</td><td>2002.03.01</td></tr>
+        </table>
+        <div id="galleriy">
+            <h3>갤러리</h3>
+            <img src="img/Contents/gallery1.jpg" alt=""><a href="#"></a>
+           <img src="img/Contents/gallery2.jpg" alt=""> <a href="#"></a>
+            <img src="img/Contents/gallery3.jpg" alt=""><a href="#"></a>
+        </div>
+        <div id="Shortcuts">
+            <img src="img/Contents/shortcut.jpg" alt=""><a href="#">바로가기</a>
+        </div>
+    </section>
+    <footer>
+       <div id="copy"> COPYRIGHT &nbsp; by WEBSDIGN ALL RIGHTS hoteaklee</div>
+        <div id="link">
+            <ul>
+                <li><img src="img/Footer/sns1.jpg" alt=""><a href="#"></a></li>
+                <li><img src="img/Footer/sns2.jpg" alt=""><a href="#"></a></li>
+                <li><img src="img/Footer/sns3.jpg" alt=""><a href="#"></a></li>
+            </ul>
+            <form action="#">
+            <select  name="category">
+                <option value="1" >패밀리사이트1</option>
+                <option value="2">패밀리사이트2</option>
+            </select></form>
+        </div>
+
+    </footer>
+
+</main>
+
+</body>
+</html>
